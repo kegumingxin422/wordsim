@@ -1,6 +1,6 @@
-Դ��˵����
-1��cosinSimilarity.py:��Ҫ����ʵ������������֮���cosinֵ����
-2��urlLib.py:��Ҫ������ͨ��combine��set1��set2�����Ĵʻ㣬ͨ��google��ȡ���ҳ�棬���ÿ���ʳ��ֵĴ������Լ���ͬ�ʶԳ��ֵĴ��������û��ڼ���ҳ�������ķ����������ƶ�
-3��Similarity.py:��Ҫ����ʵ����wordnet�Դ���6�ִʻ����ƶȼ��㷽�����Լ�����google������Ӣ�����ϣ�ѵ�����˴�����ģ��modelHuang,���Ҹ�����sperman����ȵļ��㷽����
-4��SVM.py����Ҫʵ����SVMѵ���ع�ģ�͵Ĺ���
-5��spearman.py����Ҫ���ڼ���spearmanϵ��
+#源码说明：
+1、cosinSimilarity.py:主要功能实现了两个向量之间的cosin值计算
+2、urlLib.py:主要功能是通过combine、set1、set2给定的词汇，通过google爬取相关页面，获得每个词出现的次数，以及共同词对出现的次数，运用基于检索页面数量的方法计算相似度
+3、Similarity.py:主要功能实现了wordnet自带的6种词汇相似度计算方法，以及运用google给出的英文语料，训练出了词向量模型modelHuang,并且给出了sperman差异度的计算方法。
+4、SVM.py：主要实现了SVM训练回归模型的功能
+5、spearman.py：主要用于计算spearman系数
